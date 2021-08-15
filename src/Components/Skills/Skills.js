@@ -10,7 +10,7 @@ AOS.init();
 const SKILLS = [
     {
       "type": "Java",
-      "level": 100,
+      "level": 50,
       "color": {
         "bar": "#3498db",
         "title": {
@@ -41,8 +41,8 @@ const SKILLS = [
       }
     },
     {
-      "type": "Docker",
-      "level": 25,
+      "type": "FireBase",
+      "level": 80,
       "color": {
         "bar": "orange"
       }
@@ -55,7 +55,7 @@ const SKILLS = [
       }
     },
     {
-      "type": "NoSQL",
+      "type": "MongoDB",
       "level": 50,
       "color": {
         "bar": "pink"

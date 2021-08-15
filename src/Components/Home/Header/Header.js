@@ -2,11 +2,19 @@ import React from "react";
 import ParticlesBackgrounds from "../../Particles/ParticleBackground";
 import "./Header.css";
 import Typewriter from "typewriter-effect";
+import { Button } from "react-bootstrap";
 import { faDribbble, faFacebook, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFileContract, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faEye, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
+  const hed = [
+    {
+      phone: '01979772026',
+        download: 'https://drive.google.com/file/d/1B0ucNyMrUIPFCVgmzggwSBDXAlKttuXt/view?usp=sharing',
+        
+    },
+  ]
   return (
     <div className="container">
       <div className="particl">
@@ -35,21 +43,14 @@ const Header = () => {
                         />
                       </div>
                       <br/>
-                      <div class="buttons mt-30">
-                        <button
-                          class="btn-hover color-2"
-                        >
-                          <FontAwesomeIcon icon={faPhone} />
-                          Contact
-                          
-                        </button>
-                        <button
-                          class="btn-hover color-2"
-                        >
-                          <FontAwesomeIcon icon={faFileContract} />
-                          Download CV
-                        </button>
+                      {
+                        hed.map(he =>
+                      <div class="buttons">
+                        <Button href={he.phone} className="btn-hover color-2"><FontAwesomeIcon icon={faPhone}  />  Contact</Button>
+                        <Button href={he.download} className="btn-hover color-2"><FontAwesomeIcon icon={faEye}  />  Download CV</Button>
                       </div>
+                      )
+                      }
                     </div>
                     <ul class="head-font3 profile-wrap mt-3">
                     <div className="row">
@@ -60,6 +61,7 @@ const Header = () => {
                         <h5>Freelance</h5>
                       </div>
                       <div className="col-lg-8">
+
                         <h5>Cumilla Sadar Dakshin PO:3500</h5>
                         <h5>todevarman@gmail.com</h5>
                         <h5>+8801979772026</h5>

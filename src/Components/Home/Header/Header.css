@@ -54,7 +54,7 @@
 
     .buttons {
 
-      text-align: center;
+
   }
   
   .btn-hover {
@@ -64,10 +64,10 @@
       color: #fff;
       cursor: pointer;
       margin: 20px;
-      height: 55px;
       text-align:center;
       border: none;
       background-size: 300% 100%;
+      margin-top: 5px;
   
       border-radius: 50px;
       moz-transition: all .4s ease-in-out;

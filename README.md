@@ -4,10 +4,13 @@
 
 
 # Using:
-fortawesomefontawesomesvgcore
-    fortawesomefreebrandssvgicons
-    fortawesomefreeregularsvgicons
-    fortawesomefreesolidsvgicons
+### fortawesome svgcore
+
+###  fortawesome freebrands svgicons
+fortawesomefreeregularsvgicons
+
+fortawesomefreesolidsvgicons
+
     fortawesomereactfontawesome
     materialuicore
     materialuiicons

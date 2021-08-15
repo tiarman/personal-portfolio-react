@@ -8,6 +8,7 @@ import powerGym from '../img/powerGym.PNG';
 import soccerTem from '../img/soccerTeam.PNG';
 import cityPrinting from '../img/cityPrinting.png';
 import cityRider from '../img/CityRider.PNG';
+import portfolio from '../img/portfolio.PNG';
 import './Projects.css';
 import '../Services/bootstrap/css/bootstrap.min.css'
 import  Fade  from 'react-reveal/Fade';
@@ -62,6 +63,15 @@ const Projects = () => {
     github: 'https://github.com/Porgramming-Hero-web-course/react-auth-tiarman',
     serverSite: 'https://github.com/Porgramming-Hero-web-course/full-stack-server-tiarman',
     
+
+},
+{
+  title: 'Personal Portfolio',
+  using: 'React, BootStrap, FireBase, React Router',
+  description: ' Have lots of in-room facilities and are designed in open-concept living area.',
+  imageUrl: portfolio,
+  visit: 'https://port-folio-d151e.web.app/',
+  
 
 }
 ]
