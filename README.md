@@ -4,12 +4,12 @@
 
 
 # Using:
-### fortawesome svgcore
+### Creating By React Js:
 
-###  fortawesome freebrands svgicons
-fortawesomefreeregularsvgicons
-
-fortawesomefreesolidsvgicons
+    fortawesome svgcore
+    fortawesome freebrands svgicons
+    fortawesomefreeregularsvgicons
+    fortawesomefreesolidsvgicons
 
     fortawesomereactfontawesome
     materialuicore
