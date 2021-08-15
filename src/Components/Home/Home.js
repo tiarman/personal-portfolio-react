@@ -1,4 +1,4 @@
-import React, { lazy } from 'react';
+import React, {  } from 'react';
 import Blogs from '../Blogs/Blogs';
 import Projects from '../Projects/Projects';
 import Services from '../Services/Services';

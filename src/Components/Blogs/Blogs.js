@@ -60,7 +60,7 @@ const Blogs = () => {
               <div class="card-body">
                 <div class="card-category-box">
                   <div class="card-category">
-                  <FontAwesomeIcon icon={faPinterest} />  <a href=""></a>
+                  <FontAwesomeIcon icon={faPinterest} />
                     <h6 class="category">{blog2.catagories}</h6>
                   </div>
                 </div>
@@ -71,10 +71,10 @@ const Blogs = () => {
               </div>
               <div class="card-footer">
                 <div class="post-author">
-                  <a href="#">
+                  
                     <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle"/>
                     <span class="author">{blog2.postName}</span>
-                  </a>
+                  
                 </div>
                 <div class="post-date">
                   <span class="bi bi-clock"></span> {blog2.time}

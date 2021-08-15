@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Card, Col, Container, Row } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import './Services.css'
 import Bounce from 'react-reveal/Bounce';
 import image from '../img/hero-img.png'

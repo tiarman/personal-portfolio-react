@@ -3,10 +3,8 @@ import emailjs from 'emailjs-com';
 import { Col, Container, Row } from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
 import toast from 'react-hot-toast';
-import Fade from 'react-reveal/Fade';
 import swal from 'sweetalert';
 import './Contact.css'
-import { motion } from 'framer-motion';
 
 const Contact = () => {
   const { register, handleSubmit, reset } = useForm();

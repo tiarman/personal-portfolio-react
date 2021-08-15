@@ -1,7 +1,5 @@
 .headerfit{
     position: relative;
-    
-    background-image: url("../../Particles/ParticleBackground.js");
     background-color: rgba(245, 239, 239, 0.61);
     background-image: linear-gradient(to Right, rgba(255, 0, 0, 0), rgba(255, 72, 0, 0.808));
     padding: 25px;

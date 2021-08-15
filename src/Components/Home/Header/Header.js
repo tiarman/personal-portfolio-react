@@ -2,7 +2,6 @@ import React from "react";
 import ParticlesBackgrounds from "../../Particles/ParticleBackground";
 import "./Header.css";
 import Typewriter from "typewriter-effect";
-import { Button } from "react-bootstrap";
 import { faDribbble, faFacebook, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileContract, faPhone } from "@fortawesome/free-solid-svg-icons";
@@ -40,14 +39,14 @@ const Header = () => {
                         <button
                           class="btn-hover color-2"
                         >
-                          <FontAwesomeIcon icon={faPhone} />  <a href=""></a>
+                          <FontAwesomeIcon icon={faPhone} />
                           Contact
                           
                         </button>
                         <button
                           class="btn-hover color-2"
                         >
-                          <FontAwesomeIcon icon={faFileContract} /> <a href=""></a>
+                          <FontAwesomeIcon icon={faFileContract} />
                           Download CV
                         </button>
                       </div>

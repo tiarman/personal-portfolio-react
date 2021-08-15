@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { motion } from "framer-motion";
 import { Button, Card, Col } from 'react-bootstrap';
-import { faCloud, faEye, faLink, faPlus, faShoppingCart } from '@fortawesome/free-solid-svg-icons';
+import { faCloud, faEye, faPlus } from '@fortawesome/free-solid-svg-icons';
 import carRental from '../img/car-rental.PNG';
 import powerGym from '../img/powerGym.PNG';
 import soccerTem from '../img/soccerTeam.PNG';
