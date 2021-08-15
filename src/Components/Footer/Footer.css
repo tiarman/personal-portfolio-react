@@ -1,0 +1,133 @@
+footer#footer {
+    background: #1a1a1a;
+    padding-top: 150px;
+}
+
+.footer-box h3 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footer-box p, .footer-box span {
+    line-height: 25px;
+    font-size: 16px;
+    color: #999;
+}
+
+.ficons {
+    margin: 25px 0;
+    display: flex;
+}
+
+.ficons a svg{
+    color: #999;
+    font-size: 20px;
+    margin-right: 15px;
+    transition: 0.3s;
+}
+
+.ficons a svg:hover {
+    color: #6c5ce7;
+}
+
+.contact-icon svg{
+    margin-right: 15px;
+    color: #6c5ce7;
+    font-size: 20px;
+}
+
+.footer-box ul {
+    list-style: none;
+}
+
+.footer-box ul li {
+    margin-bottom: 10px;
+}
+
+.footer-box ul li a {
+    text-decoration: none;
+    color: #999;
+    font-weight: 500;
+    display: block;
+    border-bottom: 1px dashed #333;
+    padding-bottom: 10px;
+	transition: 0.3s;
+}
+
+.footer-box ul li:last-child a {
+	border-bottom: none;
+}
+
+.footer-box ul li a svg{
+    font-size: 12px;
+    margin-right: 6px;
+}
+
+.footer-box ul li a:hover {
+    color: #6c5ce7;
+    margin-left: 5px;
+}
+
+.fRpost {
+    overflow: hidden;
+}
+
+.fRpostMeta {
+    width: 50px;
+    background: #313131;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    float: left;
+    margin-bottom: 30px;
+    margin-right: 25px;
+}
+
+.fRpostMeta span {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.fRpostMeta p {
+    font-size: 10px;
+    line-height: 13px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.fRpostTitle h3 {
+    margin-bottom: 5px;
+}
+
+.fRpostTitle h3 a {
+    color: #999;
+    text-decoration: none;
+    font-size: 16px;
+	transition: 0.3s;
+}
+
+.fRpostTitle h3 a:hover{
+	color: #6c5ce7;
+}
+
+.fRpostTitle p {
+    display: block;
+    float: left;
+    margin-right: 10px;
+    font-size: 13px;
+    color: #666;
+}
+
+.fRpostTitle p svg{
+    margin-right: 5px;
+}
+
+.copy-right-container {
+    color: #999;
+    text-align: center;
+    border-top: 1px solid #333;
+    padding: 30px 0;
+}

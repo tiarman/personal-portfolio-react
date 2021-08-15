@@ -1,0 +1,12 @@
+.skilAlign{
+    margin-top: 80px;
+}
+.img-align img{
+    width: 400px;
+    margin-top: 60px;
+    border-radius: 20px;
+}
+.img-align img:hover{
+    background-color: rgb(17, 231, 124);
+    
+}

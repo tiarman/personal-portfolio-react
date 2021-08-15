@@ -1,0 +1,173 @@
+.headerfit{
+    position: relative;
+    
+    background-image: url("../../Particles/ParticleBackground.js");
+    background-color: rgba(245, 239, 239, 0.61);
+    background-image: linear-gradient(to Right, rgba(255, 0, 0, 0), rgba(255, 72, 0, 0.808));
+    padding: 25px;
+    border-radius: 20px;
+}
+.about-sec .candidate-img {
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    background: url("../../img/avatar.png");
+    background-size: cover;
+    margin-left: 80px;
+    margin-top: 35px;
+    
+  }
+
+    .particl{
+        height: 200px;
+        background-color: #ffffff;
+    }
+
+    .header-font{
+      font-family: 'Abril Fatface', cursive;
+    }
+    .header-font2{
+      font-family: 'Abril Fatface', cursive;
+      font-size:30px;
+      color: rgb(250, 103, 4);
+    }
+
+    .head-font3{
+      font-family: 'Yeseva One', cursive;
+      color: rgb(5, 5, 5);
+    }
+    .mdl-tooltip{
+      size: 200px;
+    }
+    .social-align{
+      display:inline-flex;
+      width: 100px;
+      box-shadow: 0 10px 35px rgba(219, 11, 132, 0.938);
+      margin-left: 40px;
+      background-color: #c2f1b9;
+      padding: 10px;
+      border-radius: 10px;
+      
+    }
+    .social-align:hover{
+      color: #f7f5fa;
+      background-color: rgb(0, 0, 0);
+    }
+
+    .buttons {
+
+      text-align: center;
+  }
+  
+  .btn-hover {
+      width: 200px;
+      font-size: 16px;
+      font-weight: 600;
+      color: #fff;
+      cursor: pointer;
+      margin: 20px;
+      height: 55px;
+      text-align:center;
+      border: none;
+      background-size: 300% 100%;
+  
+      border-radius: 50px;
+      moz-transition: all .4s ease-in-out;
+      -o-transition: all .4s ease-in-out;
+      -webkit-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out;
+  }
+  
+  .btn-hover:hover {
+      background-position: 100% 0;
+      moz-transition: all .4s ease-in-out;
+      -o-transition: all .4s ease-in-out;
+      -webkit-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out;
+  }
+  
+  .btn-hover:focus {
+      outline: none;
+  }
+  .btn-hover.color-2 {
+    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+}
+
+
+
+
+@-webkit-keyframes about-sec {
+  16.65% {
+    -webkit-transform: skew(-12deg);
+    transform: skew(-12deg);
+  }
+
+  33.3% {
+    -webkit-transform: skew(10deg);
+    transform: skew(10deg);
+  }
+
+  49.95% {
+    -webkit-transform: skew(-6deg);
+    transform: skew(-6deg);
+  }
+
+  66.6% {
+    -webkit-transform: skew(4deg);
+    transform: skew(4deg);
+  }
+
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
+}
+
+@keyframes about-sec {
+  16.65% {
+    -webkit-transform: skew(-12deg);
+    transform: skew(-12deg);
+  }
+
+  33.3% {
+    -webkit-transform: skew(10deg);
+    transform: skew(10deg);
+  }
+
+  49.95% {
+    -webkit-transform: skew(-6deg);
+    transform: skew(-6deg);
+  }
+
+  66.6% {
+    -webkit-transform: skew(4deg);
+    transform: skew(4deg);
+  }
+
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
+}
+
+.about-sec:hover, .about-sec:focus, .about-sec:active {
+  -webkit-animation-name: about-sec;
+  animation-name: about-sec;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}

@@ -1,0 +1,182 @@
+section#subscribe{
+	padding: 0;
+	position: relative;
+	margin-bottom: -100px;
+}
+
+.subscribe-container{
+    background-color: #6c5ce7;
+    padding: 50px 30px;
+}
+
+.sub-box-single h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sub-box-single p {
+    color: white;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.sub-input-box {
+	position: relative;
+}
+
+.sub-input-box input:first-child {
+    width: 90%;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    font-family: oswald;
+    letter-spacing: 1.1px;
+    outline: none;
+}
+
+input#sub-submit {
+    padding: 16px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background: rgb(223, 5, 5);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    width: 130px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.sub-fllow-icon {
+    display: flex;
+}
+
+.sub-fllow-icon a {
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 5px;
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+	transition: 0.3s;
+}
+
+.sub-fllow-icon a svg {
+    font-size: 20px;
+}
+
+.sub-fllow-icon a:hover{
+	background: white;
+	color: black;
+}
+
+
+ul.sub-menu {
+    list-style: none;
+    width: 270px;
+    position: absolute;
+    top: unset;
+    background: white;
+    border-top: 1px solid #ddd;
+    padding-left: 25px;
+	visibility: hidden;
+	transform: scaleY(0);
+	transform-origin: top;
+	transition: 0.3s;
+}
+
+ul.sub-menu li {
+    float: none;
+}
+
+ul.sub-menu li a {
+    padding: 8px 0px;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: arial;
+    text-transform: capitalize;
+    color: #333;
+}
+
+ul.sub-menu li a:before {
+	content: "";
+	display: inline-block;
+	background: #ff5200;
+	width: 0px;
+	height: 3px;
+	vertical-align: middle;
+	margin-right: 10px;
+	transition: 0.6s;
+}
+
+ul.sub-menu li:hover a:before{
+	width: 15px;
+	
+}
+
+ul.MainMenuItem li:hover ul.sub-menu{
+	visibility: visible;
+	transform: scaleY(1);
+}
+
+@media (max-width: 575px) {
+    .subscribe-container{
+        background-color: #6c5ce7;
+        padding: 50px 0;
+    }
+}
+
+
+.sub-box {
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+  }
+  .sub-box:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .sub-box:hover, .sub-box:focus, .sub-box:active {
+    color: white;
+  }
+  .sub-box:hover:before, .sub-box:focus:before, .sub-box:active:before {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  }

@@ -1,0 +1,89 @@
+.news-container {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.blog-card {
+  border-radius: 5px;
+  box-shadow: 0px 7px 10px rgb(0, 0, 0);
+  transition: 0.3s;
+}
+
+.blog-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgb(0, 0, 0);
+}
+
+.blog-card img {
+  height: 200px;
+  object-fit: contain;
+  width: 100%;
+}
+
+.service-align{
+  padding: 16px;
+  font-family: 'Yeseva One', cursive;
+  border-radius: 20px;
+
+}
+.service-font1{
+  font-family: 'Yeseva One', cursive;
+}
+.services-tittle{
+  text-align: center;
+  background-color: red;
+  color: white;
+  border-radius: 20px;
+}
+.service-description{
+  text-align: center;
+  margin-top: 15px;
+  font-family: monospace;
+}
+
+/* .service-align:hover{
+  color: white;
+} */
+.service-align {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.973);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+  background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(255, 0, 98, 0.904));
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.service-align:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: hsl(0, 22%, 96%);
+  border-radius: 100%;
+  -webkit-transform: scale(2);
+  transform: scale(2);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.service-align:hover, .service-align:focus, .service-align:active {
+  color: white;
+}
+.service-align:hover:before, .service-align:focus:before, .service-align:active:before {
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}

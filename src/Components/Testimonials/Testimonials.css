@@ -1,0 +1,115 @@
+.testimonials {
+    padding: 50px 0;
+    background-color: rgb(255, 255, 255);
+}
+.test-header{
+    font-family: 'Yeseva One', cursive;
+    text-align: center;
+}
+
+.single-testimonial {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    margin: 0 20px 50px;
+    border-radius: 10px;
+    height: 350px;
+    overflow: hidden;
+    font-family: 'Yeseva One', cursive;
+}
+
+.swiper-pagination-bullet{
+    height: 10px !important;
+    width: 10px !important;
+    opacity: 1 !important;
+    background: transparent !important;
+    border: 2px solid #eae9f1 !important;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #fbfbff !important;
+}
+
+
+
+
+
+
+
+@-webkit-keyframes single-testimonial {
+    0% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+  
+    50% {
+      -webkit-transform: translateY(-4px);
+      transform: translateY(-4px);
+    }
+  
+    100% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+  }
+  
+  @keyframes single-testimonial {
+    0% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+  
+    50% {
+      -webkit-transform: translateY(-4px);
+      transform: translateY(-4px);
+    }
+  
+    100% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+  }
+  
+  @-webkit-keyframes single-testimonial-float {
+    100% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+  }
+  
+  @keyframes single-testimonial-float {
+    100% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+  }
+  
+  .single-testimonial {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .single-testimonial:hover, .single-testimonial:focus, .single-testimonial:active {
+    -webkit-animation-name: single-testimonial-float, single-testimonial;
+    animation-name: single-testimonial-float, single-testimonial;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+    background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(255, 0, 76, 0.808));
+  }
