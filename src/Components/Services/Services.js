@@ -8,17 +8,17 @@ const Services = () => {
   const service = [
     {
         title: 'Web Design',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, tempora nihil',
+        description: 'I can design modern react app. Also design every kind of web application and web app for you.',
         imageUrl: '../img/CityRider.PNG'
     },
     {
         title: 'Web Development',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, tempora nihil',
+        description: 'I can developing all kind off application. I can manage all the sites are created by react.',
         imageUrl: '../img/CityRider.PNG'
     },
     {
         title: 'React Native Development',
-        description: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, tempora nihil',
+        description: ' Using react native I can create android and IOS apps for you and your business.',
         imageUrl: '../img/CityRider.PNG'
 
     }
