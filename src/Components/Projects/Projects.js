@@ -20,7 +20,7 @@ const Projects = () => {
         title: 'Car Rental',
         using: 'React, BootStrap, FireBase, React Router, MongoDB',
         imageUrl: carRental,
-        visit: 'https://friendly-feynman-b24a39.netlify.app/',
+        visit: 'https://unruffled-shannon-077751.netlify.app/',
         github: 'https://github.com/tiarman/Car-Rental',
         serverSite: 'https://github.com/tiarman/car-rental-serverss'
     },
